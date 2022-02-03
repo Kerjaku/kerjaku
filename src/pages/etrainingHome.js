@@ -21,7 +21,7 @@ const Home = () => {
   return (
     <ThemeProvider theme={theme}>
       <div class="home-page-header">
-        <img src={logo} class="logo" />
+        <img src={logo} alt="logo" class="logo" />
         <div class="buttons">
           <Stack spacing={2} direction="row">
             <Link to="/"><Button variant="text" color="secondary">Home</Button></Link>
@@ -34,13 +34,13 @@ const Home = () => {
       <div class="etraining-header">Selamat datang kembali di Modul E-Training Anda!</div>
       <div class="etraining-page-boxes-holder">
         <Stack direction="row" spacing={2}>
-          <img src={ModuleOneIcon} class="etrainingIcon" />
+          <img src={ModuleOneIcon} alt="etrainingIcon" class="etrainingIcon" />
           <div>
             <div class="etraining-page-boxes-top-title">Modul Dalam Proses:</div>
             <div class="etraining-page-boxes">
               <div class="etraining-page-boxes-title">01 Mengenal Potensi Diri</div>
               <div class="home-page-boxes-text">Modul ini akan memandu Anda melalui cara menemukan potensi Anda berdasarkan tipe kepribadian Anda.</div>
-              <div class="home-page-boxes-button" ><Button variant="contained">Lanjutkan Belajar</Button></div>
+              <div class="home-page-boxes-button" ><Link to="/moduleOneHome"><Button variant="contained">Lanjutkan Belajar</Button></Link></div>
             </div>
           </div>
         </Stack>

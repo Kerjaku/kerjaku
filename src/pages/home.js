@@ -23,7 +23,7 @@ const Home = () => {
     return (
         <ThemeProvider theme={theme}>
             <div class="home-page-header">
-                <img src={logo} class="logo" />
+                <img src={logo} class="logo" alt="logo" />
                 <div class="buttons">
                     <Stack spacing={2} direction="row">
                         <Link to="/"><Button variant="contained">Home</Button></Link>
@@ -32,7 +32,7 @@ const Home = () => {
                     </Stack>
                 </div>
             </div>
-            <img src={homepageicon} class="home-page-icon" />
+            <img src={homepageicon} alt="homepageicon" class="home-page-icon" />
             <div class="home-page-header">Get Started</div>
             <div class="home-page-boxes-holder">
                 <Stack direction="row" >
@@ -57,9 +57,9 @@ const Home = () => {
             <div class="home-page-text">As a medium of information that facilitates access for young people in determining and developing careers in work and entrepreneurship. In addition to online media, offline platforms are also available which are managed in good partnership with various parties to develop the capacity and quality of young people with character, and also provide qualified skills both offline in the form of seminars, workshops, courses and skills training</div>
             <hr class="line-break" />
             <div class="home-page-header2">Sponsors</div>
-            <img src={childfundlogo} class="home-page-sponsor-icon" />
+            <img src={childfundlogo} alt="childfundlogo" class="home-page-sponsor-icon" />
             <div class="sponsor-text">ChildFund International</div>
-            <a class="sponsor-link" href="">Visit Site</a>
+            <Link  ><div class="sponsor-link">Visit Site</div></Link>
             <hr class="line-break" />
             <div class="footer">Kerjaku.org <br /> Telp : 024 672 4835 / 024 672 4865 <br /> Email : ykks.semarang19@gmail.com</div>
         </ThemeProvider>
