@@ -1,18 +1,21 @@
 {
   "files": {
     "main.css": "/kerjaku/static/css/main.3bd88fde.css",
-    "main.js": "/kerjaku/static/js/main.46fce1ce.js",
+    "main.js": "/kerjaku/static/js/main.8e327668.js",
     "static/js/787.55963a8d.chunk.js": "/kerjaku/static/js/787.55963a8d.chunk.js",
     "static/media/homepage-icon.PNG": "/kerjaku/static/media/homepage-icon.3a24e43eaf5e5ceffbb4.PNG",
+    "static/media/Moduleoneb2.png": "/kerjaku/static/media/Moduleoneb2.198eed6d859b80bd7989.png",
     "static/media/childfund-logo.PNG": "/kerjaku/static/media/childfund-logo.fda6ef58e31a91081d25.PNG",
+    "static/media/Moduleoneb.png": "/kerjaku/static/media/Moduleoneb.25a48eaf94d1b3de3506.png",
+    "static/media/Moduleoneb3.png": "/kerjaku/static/media/Moduleoneb3.cb513d70bb111512c49e.png",
     "static/media/ModuleOneIcon.png": "/kerjaku/static/media/ModuleOneIcon.851f25e97db6818548bb.png",
     "index.html": "/kerjaku/index.html",
     "main.3bd88fde.css.map": "/kerjaku/static/css/main.3bd88fde.css.map",
-    "main.46fce1ce.js.map": "/kerjaku/static/js/main.46fce1ce.js.map",
+    "main.8e327668.js.map": "/kerjaku/static/js/main.8e327668.js.map",
     "787.55963a8d.chunk.js.map": "/kerjaku/static/js/787.55963a8d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3bd88fde.css",
-    "static/js/main.46fce1ce.js"
+    "static/js/main.8e327668.js"
   ]
 }
